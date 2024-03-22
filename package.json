@@ -1,0 +1,15 @@
+{
+  "name": "acme",
+  "version": "1.0.0",
+  "description": "Typescript `declarationMap` issue reproduction",
+  "scripts": {
+    "typecheck": "turbo typecheck",
+    "tsc:watch": "turbo tsc:watch"
+  },
+  "author": "Ramazan Elsunkaev <relsunkaev@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.13.0",
+    "typescript": "^5.4.3"
+  }
+}

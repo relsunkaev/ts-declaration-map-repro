@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "outDir": "build",
+    "disableSourceOfProjectReferenceRedirect": true,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "target": "es2017",
+    "allowJs": false,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    "isolatedModules": true,
+    "incremental": true,
+    "sourceMap": true,
+
+    "module": "esnext",
+    "moduleResolution": "node10",
+    "noEmit": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "include": ["index.ts"],
+  "references": [{ "path": "../api" }]
+}

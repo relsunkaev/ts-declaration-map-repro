@@ -1,0 +1,18 @@
+{
+  "name": "@acme/api",
+  "version": "1.0.0",
+  "description": "A TRPC API package",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "typecheck": "tsc",
+    "tsc:watch": "tsc --watch"
+  },
+  "author": "Ramazan Elsunkaev <relsunkaev@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@trpc/server": "^10.45.2"
+  }
+}
